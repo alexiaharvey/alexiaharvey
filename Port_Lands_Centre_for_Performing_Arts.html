@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Alexia Jade Harvey</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/flickity.css" />
+		<script type="text/javascript" src="assets/js/flickity.pkgd.js"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images\Square_Images\jade square.jpg" alt="" /></span><span class="portfolio-title">Portfolio | Alexia Jade Harvey</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Portfolio</a></li>
+							<li><a href="About_me.html">About me</a></li>
+							<li><a href="Education.html">Education</a></li>
+							<li><a href="Work_Experience.html">Work Experience</a></li>
+							<li><a href="Skills.html">Skills</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1 class="project-title"> Port Lands Centre for Performing Arts</h1>
+							<span class="image main"><img src="images\Wide_Images\Portlands Theatre Winter_Wide.jpg" alt="" /></span>
+							<p class="project-subtitle"> A theatre where visitors become actors in the projecting skits</p>
+							<p class="project-collab">In collaboration with Bronte Morris-Poolman</p>
+
+							<style>
+								#more {display: none;}
+							</style>
+							<p>The concept of mise en abyme was the main driver behind our Port Lands Performing Arts Centre. The term mise en abyme translates from the French
+							into “to put into the abyss.” <span id="dots">...</span><span id="more">It is a phenomena found across all art forms in which similarity and self-reference occurs within a work of art. 
+							It proposes the occurrence of at least two hierarchical levels and mirrors elements between them. Mise en abyme appears in the form of nested, 
+							mirrored, and paralleled elements that reveal a truth about their counterparts. The way in which mise en abyme presents itself in theatrical works
+							is in the play within a play. Common examples of these are the plays within a play found in Shakespeare’s famous pieces A Midsummer Night’s Dream and
+							Hamlet. In both of these cases, the nest, fictional narrative is a reflection of the real, main narrative.
+							<br><br> 
+							The way that we have translated mise en abyme in architectural terms is through nested narratives, forms, and structures. Our building tells 
+							the story of the site and the creation of the play. By reflecting and mirroring the theatre’s surroundings as well as using water as an element for 
+							design our building tells the story of the site. The built form enhances the theatricality of each internal space and the surrounding site. It
+							invites visitors to take on the role of actors within the narrative of the building and the water to become a dynamic set. </span></p>
+							<button class="more-button" onclick="myFunction()" id="myBtn">more</button>
+
+							<script>
+								function myFunction() {
+									var dots = document.getElementById("dots");
+									var moreText = document.getElementById("more");
+									var btnText = document.getElementById("myBtn");
+								
+									if (dots.style.display === "none") {
+										dots.style.display = "inline";
+										btnText.innerHTML = "more"; 
+										moreText.style.display = "none";
+									} else {
+										dots.style.display = "none";
+										btnText.innerHTML = "less"; 
+										moreText.style.display = "inline";
+									}
+								}
+							</script>
+								
+							<Style>
+								.wrapper{
+									display: grid;
+									grid-template-columns: 1fr 1fr;
+									/* grid-template-rows: 1fr 1fr; */
+									/* grid-column-gap: 1em;
+									grid-row-gap: 1em; */
+									grid-gap: 1em;
+									/* grid-auto-rows: 100px; */
+									grid-auto-rows: minmax(100px, auto);
+									margin-top: 60px;
+									margin-bottom: 60px;
+								}
+
+								.wrapper > img:nth-child(odd){
+									background:white;
+								}
+
+								.wrapper > img{
+									width: 100%;
+								}
+
+								.sub-image-1 {
+									grid-column: 1/3;
+									grid-row: 1;
+								}
+
+								.sub-image-1-text {
+									grid-column: 1/3;
+									grid-row: 2;
+									text-align: center;
+									margin-top: 30px;
+									margin-bottom: 60px;
+									font-family: "Roboto" , sans-serif ;
+								}
+
+								.sub-image-2 {
+									grid-column: 1/3;
+									grid-row: 3;
+									border: 1px solid #BEBEBE;
+								}
+
+								.sub-image-2-text {
+									grid-column: 1/3;
+									grid-row: 4;
+									text-align: center;
+									margin-top: 60px;
+									margin-bottom: 60px;
+									font-family: "Roboto" , sans-serif ;
+								}
+
+								.sub-image-3 {
+									grid-column: 1/3;
+									grid-row: 5;
+									border: 1px solid #BEBEBE;
+								}
+
+								.sub-image-3-text {
+									grid-column: 1/3;
+									grid-row: 6;
+									text-align: center;
+									margin-top: 60px;
+									margin-bottom: 60px;
+									font-family: "Roboto" , sans-serif ;
+								}
+
+								.sub-image-4 {
+									grid-column: 1/3;
+									grid-row: 7;
+									border: 1px solid #BEBEBE;
+								}
+
+								.sub-image-4-text {
+									grid-column: 1/3;
+									grid-row: 8;
+									text-align: center;
+									margin-top: 60px;
+									margin-bottom: 60px;
+									font-family: "Roboto" , sans-serif ;
+								}
+
+								.sub-image-5 {
+									grid-column: 1/3;
+									grid-row: 9;
+								}
+
+								.sub-image-6 {
+									grid-column: 1/3;
+									grid-row: 10;
+								}
+
+								.sub-image-6-text {
+									grid-column: 1/3;
+									grid-row: 11;
+									text-align: center;
+									margin-top: 60px;
+									font-family: "Roboto" , sans-serif ;
+									
+								}
+
+							</Style>
+						<div class="wrapper">
+								<img class="sub-image-1" src="images\PL_Centre_Perf_Arts_project_images\Diagram_Parti_centered.jpg"/>
+								<div class="sub-image-1-text">
+									<div>
+										“Like in a play within a play, the theatre itself inverts of spectator and spectacle”
+									</div>
+								</div>
+								<img class="sub-image-2" src="images\PL_Centre_Perf_Arts_project_images\G1plan_colour_rgb.jpg"/>
+								<div class="sub-image-2-text">
+									<div>
+										<div>Ground Floor 1</div>
+										<div>The ground floor is split between two levels with Ground Floor 1 being closer to the water and Ground Floor 2 at
+										entry level. At the end of the pier, the building lowers down to provide visitors with the opportunity to get close to the water and move freely
+										between indoor and outdoor spaces.</div>
+									</div>
+								</div>
+								<img class="sub-image-3" src="images\PL_Centre_Perf_Arts_project_images\G2plan_colour_rgb.jpg"/>
+								<div class="sub-image-3-text">
+									<div>
+										<div>Ground Floor 2</div>
+										<div>The entrance sequence is a procession along the pier, into the building, up the ramp, stopping at the skits and finally into the theatre.
+										It becomes a series of scenes that animate the building. The rooms on the ground floor plan act as a separation between public and private
+										programming. All public spaces can be accessed by the northern hallway whereas private spaces are accessed by that on the south side.</div>
+									</div>
+								</div>
+								<img class="sub-image-4" src="images\PL_Centre_Perf_Arts_project_images\l2plan_rgb.jpg"/>
+								<div class="sub-image-4-text">
+									<div>
+										<div>Level 2</div>
+										<div>The informal theatre spaces, mirror the formal theatre programming and the loose fit floor plate creates balcony spaces and makes
+											volumes appear to be boxes within main box. The two theatres on the second floor share backstage spaces and the studio cantilevers
+											over the main entrance to engage with visitors as they enter the building.</div>
+									</div>
+								</div>
+								<img class="sub-image-5" src="images\PL_Centre_Perf_Arts_project_images\RENDER_01_revised.jpg"/>
+								<img class="sub-image-6" src="images\PL_Centre_Perf_Arts_project_images\nightrender2.jpg"/>
+								<div class="sub-image-6-text">
+									<div>
+									During the day, the building reflects its surroundings and the skits become prominent figures on the elevation.
+									At night, the building displays a spectacle by revealing the activity of its users and the inner volumes become prominent
+									figures within the building’s enclosure.
+									</div>
+								</div>
+								
+						</div>
+						
+
+						<div class="gallery js-flickity"
+							  data-flickity-options='{ "wrapAround": true }'>
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\site_plan.jpg" alt="Site Plan">
+ 							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\site_Axo.jpg" alt="Site Axo"> 
+ 							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\axo_Explained.jpg" alt="Detailed Axo">  
+  							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\partial_section_1.jpg" alt="First slide">
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\model_picture.jpg" alt="First slide">
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\partial_section_2.jpg" alt="First slide"> 
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\Render_entrance.jpg" alt="First slide">
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\render_far.jpg" alt="First slide"> 
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\Render_water.jpg" alt="First slide"> 
+						</div>
+
+						<!-- <p class="caption">&nbsp;</p> -->
+
+					</div>
+				</div>
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Get in Touch</h2>
+							<ul class="icons">
+								<!-- <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+								<!-- <li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li> -->
+							</ul>
+						</section>
+						<ul class="copyright">
+								<li>&copy; Alexia Jade Harvey. All rights reserved</li>
+								<!-- <li>Design: <a href="alexiaharvey.com">HTML5 UP</a></li> -->
+							</ul>
+						</div>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
