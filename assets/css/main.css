@@ -3332,11 +3332,12 @@ input, select, textarea {
 	font-family: "Roboto", sans-serif!important;
 	font-weight: 600!important;
 	font-size: 1em!important;
+	letter-spacing: 0.3em!important;
 	}
 
 	@media screen and (max-width: 600px) {
 		.portfolio-title {
-		  font-size: 0.6em!important;
+		  font-size: 0.5em!important;
 		}
 	}
 
@@ -3373,12 +3374,12 @@ input, select, textarea {
 	margin-bottom: 0px;
 	color: #585858;
 	font-family: "Roboto", sans-serif;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	font-weight: 450;
 	}
 	@media screen and (max-width: 600px) {
 		.project-subtitle {
-		  font-size: 1.2em!important;
+		  font-size: 0.8em!important;
 		}
 	}
 
@@ -3392,8 +3393,8 @@ input, select, textarea {
 	font-weight: 400;
 	}
 	@media screen and (max-width: 600px) {
-		.project-subtitle {
-			font-size: 1.2em!important;
+		.project-collab {
+			font-size: 0.8em!important;
 		}
 	}
 
@@ -3542,12 +3543,6 @@ input, select, textarea {
 	.more-button:disabled {
 		pointer-events: none;
 		opacity: 0.25;
-	}
-
-	@media screen and (max-width: 600px) {
-		.project-subtitle {
-			font-size: 0.5em!important;
-			}
 	}
 	
 	input[type="submit"]:hover,
