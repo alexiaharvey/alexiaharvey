@@ -3591,7 +3591,7 @@ input, select, textarea {
   }
 
   .language-button {
-	-moz-appearance: none;
+	/* -moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
@@ -3600,14 +3600,14 @@ input, select, textarea {
 	-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 	background-color: transparent;
-	border-radius: none;
+	border-radius: none; */
 	border: none;
 	box-shadow: none; 
 	color: white !important;
 	cursor: pointer;
 	display: inline-block;
 	/* font-size: 0.8em; */
-	font-weight: 500;
+	font-weight: 200;
 	height: 3.5em;
 	letter-spacing: 0.1em;
 	line-height: 1.5em;
