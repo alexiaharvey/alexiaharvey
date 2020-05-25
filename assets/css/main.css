@@ -2349,7 +2349,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 3em 0 3em 0;
 			width: 100%;
 		}
 
@@ -2635,6 +2635,7 @@ input, select, textarea {
 					background-size: 100% 100%; */
 					opacity: 0.25;
 					z-index: 2;
+					
 				}
 
 			.tiles article > a {
@@ -2740,7 +2741,7 @@ input, select, textarea {
 				body:not(.is-touch) .tiles article:hover > .image:after {
 					opacity: 0;
 				}
-
+			
 			body:not(.is-touch) .tiles article:hover .content {
 				max-height: 15em;
 				opacity: 1;
@@ -2757,6 +2758,7 @@ input, select, textarea {
 			transform: scale(0.9);
 			opacity: 0;
 		}
+
 
 		body.is-touch .tiles article .content {
 			max-height: 15em;
@@ -2819,7 +2821,17 @@ input, select, textarea {
 					width: 100%;
 					margin: 1.25em 0 0 0;
 				}
+			
+				.tiles article > .image:before {
+				background-color:black;
+				opacity: 0.10;
+			
+				}
 
+				.tiles article > a .content > :last-child {
+					display: none!important;
+				}
+			
 		}
 
 /* Header */
@@ -3357,8 +3369,8 @@ input, select, textarea {
 	}
 
 .project-title {
-	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	color: #585858;
 	font-family: "Roboto", sans-serif;
 	font-size: 2em;
@@ -3371,11 +3383,11 @@ input, select, textarea {
 
 .project-subtitle {
 	margin-top: 1px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	color: #585858;
 	font-family: "Roboto", sans-serif;
-	font-size: 1.6em;
-	font-weight: 450;
+	font-size: 1.1em;
+	font-weight: 400;
 	}
 	@media screen and (max-width: 600px) {
 		.project-subtitle {
