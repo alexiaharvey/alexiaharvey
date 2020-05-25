@@ -3425,6 +3425,19 @@ input, select, textarea {
 		}
 	}
 
+.page-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #585858;
+	font-family: "Roboto", sans-serif;
+	font-size: 2em;
+	}
+	@media screen and (max-width: 600px) {
+		.project-title {
+			font-size: 1.2em!important;
+		}
+	}
+
 .project-subtitle {
 	margin-top: 1px;
 	margin-bottom: 10px;
