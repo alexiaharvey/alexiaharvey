@@ -2809,6 +2809,17 @@ input, select, textarea {
 						transform: scale(1.0);
 					}
 
+					.tiles article > .image:before {
+						background-color:black;
+						opacity: 0.10;
+					
+						}
+		
+						.tiles article > a .content > :last-child {
+							display: none!important;
+						}
+					
+
 		}
 
 		@media screen and (max-width: 480px) {
