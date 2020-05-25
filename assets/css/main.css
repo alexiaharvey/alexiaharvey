@@ -3389,7 +3389,7 @@ input, select, textarea {
 	box-sizing: inherit;
 	color: #585858;
 	font-family: "Roboto", sans-serif;
-	font-size: 0.9em;
+	font-size: 1.1em;
 	font-weight: 400;
 	}
 	@media screen and (max-width: 600px) {
