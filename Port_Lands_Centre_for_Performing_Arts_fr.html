@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Alexia Jade Harvey</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/flickity.css" />
+		<script type="text/javascript" src="assets/js/flickity.pkgd.js"></script>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="Index_Fr.html" class="logo">
+									<span class="symbol"><img src="images\Square_Images\jade square.jpg" alt="" /></span><span class="portfolio-title">Portfolio | Alexia Jade Harvey</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="Index_Fr.html">Portfolio</a></li>
+							<li><a href="About_me_fr.html">À propos</a></li>
+							<li><a href="Education_fr.html">Éducation</a></li>
+							<li><a href="Education_fr.html#Expérience_de_Travail">Expérience de Travail</a></li>
+							<li><a href="Education_fr.html#Compétences">Compétences</a></li>
+							<li><button class="language-button"><a href=Port_Lands_Centre_for_Performing_Arts.html> En |</button></a><button class="language-button"><a href=Port_Lands_Centre_for_Performing_Arts_fr.html>&nbspFr</a></button></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1 class="project-title"> Centre des Arts du Port de Toronto</h1>
+							<span class="image main"><img src="images\Wide_Images\Portlands Theatre Winter_Wide.jpg" alt="" /></span>
+							<!-- <p class="project-subtitle"> A theatre where visitors become actors in the projecting skits</p> -->
+							<p class="project-collab">En collaboration avec Bronte Morris-Poolman</p>
+
+							<style>
+								#more {display: none;}
+							</style>
+							<p>Le concept de mise en abyme a été le principal moteur de notre Port Lands Performing Arts Center. Le terme mise en abyme traduit du français
+								en «mettre dans l'abîme». Il s'agit d'un phénomène  <span id="dots">...</span><span id="more">que l'on retrouve dans toutes les formes d'art dans lesquelles la similitude et l'auto-référence se produisent dans une œuvre d'art.
+								Il propose l'occurrence d'au moins deux niveaux hiérarchiques et reflète des éléments entre eux. Mise en abyme se présente sous forme de niché,
+								des éléments en miroir et en parallèle qui révèlent une vérité sur leurs homologues. La manière dont la mise en abyme se présente dans les œuvres théâtrales
+								est dans le jeu dans un jeu. Des exemples courants de ces pièces sont les pièces d'une pièce que l'on retrouve dans les célèbres pièces de Shakespeare, A Midsummer Night’s Dream et
+								Hamlet. Dans ces deux cas, le récit fictif nid est le reflet du récit réel et principal.
+							<br><br> 
+							La façon dont nous avons traduit la mise en abyme en termes architecturaux passe par des récits, des formes et des structures imbriqués. Notre bâtiment raconte
+							l'histoire du site et la création de la pièce. En reflétant et en reflétant l'environnement du théâtre ainsi qu'en utilisant l'eau comme élément de
+							concevoir notre bâtiment raconte l'histoire du site. La forme bâtie améliore la théâtralité de chaque espace interne et du site environnant. Il
+							invite les visiteurs à assumer le rôle d'acteurs dans le récit du bâtiment et de l'eau pour devenir un ensemble dynamique. </span></p>
+							<button class="more-button" onclick="myFunction()" id="myBtn">en savoir plus</button>
+
+							<script>
+								function myFunction() {
+									var dots = document.getElementById("dots");
+									var moreText = document.getElementById("en savoir plus");
+									var btnText = document.getElementById("myBtn");
+								
+									if (dots.style.display === "none") {
+										dots.style.display = "inline";
+										btnText.innerHTML = "more"; 
+										moreText.style.display = "none";
+									} else {
+										dots.style.display = "none";
+										btnText.innerHTML = "moins"; 
+										moreText.style.display = "inline";
+									}
+								}
+								</script>
+							
+								
+							<Style>
+								.wrapper{
+									display: grid;
+									grid-template-columns: 1fr 1fr;
+									/* grid-template-rows: 1fr 1fr; */
+									/* grid-column-gap: 1em;
+									grid-row-gap: 1em; */
+									grid-gap: 1em;
+									/* grid-auto-rows: 100px; */
+									grid-auto-rows: minmax(100px, auto);
+									margin-top: 60px;
+									margin-bottom: 60px;
+								}
+
+								.wrapper > img:nth-child(odd){
+									background:white;
+								}
+
+								.wrapper > img{
+									width: 100%;
+								}
+
+								.sub-image-1 {
+									grid-column: 1/3;
+									grid-row: 1;
+								}
+
+								.sub-image-1-text {
+									grid-column: 1/3;
+									grid-row: 2;
+									text-align: center;
+									margin-top: 30px;
+									margin-bottom: 60px;
+									font-family: "Roboto" , sans-serif ;
+								}
+
+								.sub-image-2 {
+									grid-column: 1/3;
+									grid-row: 3;
+									border: 1px solid #BEBEBE;
+								}
+
+								.sub-image-2-text {
+									grid-column: 1/3;
+									grid-row: 4;
+									text-align: center;
+									margin-top: 60px;
+									margin-bottom: 60px;
+									font-family: "Roboto" , sans-serif ;
+								}
+
+								.sub-image-3 {
+									grid-column: 1/3;
+									grid-row: 5;
+									border: 1px solid #BEBEBE;
+								}
+
+								.sub-image-3-text {
+									grid-column: 1/3;
+									grid-row: 6;
+									text-align: center;
+									margin-top: 60px;
+									margin-bottom: 60px;
+									font-family: "Roboto" , sans-serif ;
+								}
+
+								.sub-image-4 {
+									grid-column: 1/3;
+									grid-row: 7;
+									border: 1px solid #BEBEBE;
+								}
+
+								.sub-image-4-text {
+									grid-column: 1/3;
+									grid-row: 8;
+									text-align: center;
+									margin-top: 60px;
+									margin-bottom: 60px;
+									font-family: "Roboto" , sans-serif ;
+								}
+
+								.sub-image-5 {
+									grid-column: 1/3;
+									grid-row: 9;
+								}
+
+								.sub-image-6 {
+									grid-column: 1/3;
+									grid-row: 10;
+								}
+
+								.sub-image-6-text {
+									grid-column: 1/3;
+									grid-row: 11;
+									text-align: center;
+									margin-top: 60px;
+									font-family: "Roboto" , sans-serif ;
+									
+								}
+
+							</Style>
+						<div class="wrapper">
+								<img class="sub-image-1" src="images\PL_Centre_Perf_Arts_project_images\Diagram_Parti_centered.jpg"/>
+								<div class="sub-image-1-text">
+									<div>
+									"Comme dans une pièce de théâtre, le théâtre lui-même inverse le spectateur et le spectacle"
+									</div>
+								</div>
+								<img class="sub-image-2" src="images\PL_Centre_Perf_Arts_project_images\G1plan_colour_rgb.jpg"/>
+								<div class="sub-image-2-text">
+									<div>
+										<div>RDC 1</div>
+										<div>Le rez-de-chaussée est divisé en deux niveaux, le rez-de-chaussée 1 étant plus proche de l'eau et le rez-de-chaussée 2 au
+										niveau d'entrée. À l'extrémité de la jetée, le bâtiment s'abaisse pour offrir aux visiteurs la possibilité de s'approcher de l'eau et de se déplacer librement
+										entre les espaces intérieurs et extérieurs.</div>
+									</div>
+								</div>
+								<img class="sub-image-3" src="images\PL_Centre_Perf_Arts_project_images\G2plan_colour_rgb.jpg"/>
+								<div class="sub-image-3-text">
+									<div>
+										<div>RDC 2</div>
+										<div>
+										La séquence d'entrée est une procession le long de la jetée, dans le bâtiment, en haut de la rampe, s'arrêtant aux sketchs et enfin dans le théâtre.
+										Il devient une série de scènes qui animent le bâtiment. Les pièces du rez-de-chaussée agissent comme une séparation entre le public et le privé
+										programmation. Tous les espaces publics sont accessibles par le couloir nord tandis que les espaces privés sont accessibles par celui du côté sud.</div>
+									</div>
+								</div>
+								<img class="sub-image-4" src="images\PL_Centre_Perf_Arts_project_images\l2plan_rgb.jpg"/>
+								<div class="sub-image-4-text">
+									<div>
+										<div>Étage 2</div>
+										<div>Les espaces de théâtre informels, reflètent la programmation formelle du théâtre et la plaque de sol ample crée des espaces de balcon et fait
+										les volumes semblent être des cases dans la case principale. Les deux théâtres du deuxième étage se partagent les coulisses et les cantilevers du studio
+										au-dessus de l'entrée principale pour interagir avec les visiteurs lorsqu'ils entrent dans le bâtiment.</div>
+									</div>
+								</div>
+								<img class="sub-image-5" src="images\PL_Centre_Perf_Arts_project_images\RENDER_01_revised.jpg"/>
+								<img class="sub-image-6" src="images\PL_Centre_Perf_Arts_project_images\nightrender2.jpg"/>
+								<div class="sub-image-6-text">
+									<div>
+								Pendant la journée, le bâtiment reflète son environnement et les sketchs deviennent des figures importantes de l'élévation.
+								La nuit, le bâtiment affiche un spectacle en dévoilant l'activité de ses utilisateurs et les volumes intérieurs deviennent proéminents
+								dans l’enceinte du bâtiment.
+									</div>
+								</div>
+								
+						</div>
+						
+
+						<div class="gallery js-flickity"
+							  data-flickity-options='{ "wrapAround": true }'>
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\site_plan.jpg" alt="Site Plan">
+ 							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\site_Axo.jpg" alt="Site Axo"> 
+ 							<!-- <img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\axo_Explained.jpg" alt="Detailed Axo">   -->
+  							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\partial_section_1.jpg" alt="First slide">
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\model_picture.jpg" alt="First slide">
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\partial_section_2.jpg" alt="First slide"> 
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\Render_entrance.jpg" alt="First slide">
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\render_far.jpg" alt="First slide"> 
+							<img class="gallery-cell" src="images\PL_Centre_Perf_Arts_project_images\Render_water.jpg" alt="First slide"> 
+						</div>
+
+						<!-- <p class="caption">&nbsp;</p> -->
+
+					</div>
+				</div>
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Contact</h2>
+							<ul class="icons">
+								<!-- <li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+								<li><a href="https://www.instagram.com/alexia.harvey.design/?hl=en" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://ca.linkedin.com/in/alexia-jade-harvey" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="index.html#Get_In_Touch" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								<!-- <li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li> -->
+							</ul>
+						</section>
+						<ul class="copyright">
+							<li>&copy; Alexia Jade Harvey. Tous droits réservés.</li>
+							<!-- <li>Design: <a href="alexiaharvey.com"></a></li> -->
+						</ul>
+					</div>
+				</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
