@@ -3510,8 +3510,40 @@ input, select, textarea {
 	vertical-align: text-bottom!important;
 	line-height: 1.2;
 	margin-bottom: -4px!important;
+	font-weight: 400;
 	}
 
+	@media screen and (max-width: 600px) {
+		.project-title {
+			font-size: 1.2em!important;
+		}
+	}
+
+.description-title {
+	margin-left: 20px;
+	text-align: left;
+	vertical-align: text-bottom!important;
+	line-height: 1.2;
+	margin-bottom: 20px!important;
+	font-weight: 400;
+	}
+	
+	@media screen and (max-width: 600px) {
+		.project-title {
+			font-size: 1.2em!important;
+		}
+	}
+
+.job-description {
+	margin-left: 0px;
+	text-align: left;
+	vertical-align: text-bottom!important;
+	line-height: 1.2;
+	margin-bottom: -4px!important;
+	font-weight: 200;
+	/* font-size: 0.9em; */
+	}
+	
 	@media screen and (max-width: 600px) {
 		.project-title {
 			font-size: 1.2em!important;
